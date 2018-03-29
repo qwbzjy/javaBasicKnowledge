@@ -91,8 +91,22 @@ public class java_Collection {
             Map map2= new HashMap<>();
             ls2.add(map2);
 
-            /*
+            /*集合总结：
+            *1.Collection(接口)
+            *   List(接口):有序，可重复
+            *       实现类：
+            *               ArrayList，基于数组实现
+            *               LinkedList,基于链表实现
             *
+            *   Set(接口)：无序，不能重复(继承collection接口)
+            *       实现类：HashSet LinkedHashSet
+            *       接口:SortedSet(实现类：TreeSet排序)
+            *所有的Collection集合对象都实现了Iterable接口，都允许使用foreach遍历
+            *2.Map键值对 对象
+            *   key不允许重复，Map的这些实现类和子接口中key集的存储形式和Set集合完全相同(即key不能重复)
+Map的这些实现类和子接口中value集的存储形式和List非常类似(即value可以重复、根据索引来查找)
+                实现类：HashMap(HashTable)  LinkedHashMap
+            *   接口: SortedMap(TreeMap)
             *
             * **/
     }
