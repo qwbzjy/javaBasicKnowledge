@@ -6,6 +6,7 @@ import java.util.Collections;
 public class CollectionsUtils {
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
+        //集合只能存储引用类型
 //        Collections.addAll(list,"c","E","G","A");
 //        System.out.println("排序前："+list);
 //

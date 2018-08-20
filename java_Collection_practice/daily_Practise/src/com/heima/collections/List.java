@@ -6,9 +6,9 @@ public class List {
 
     public static void main(String[] args) {
         //ctrl+alt+L 格式化代码
-//        arrayList();
+        arrayList();
 //        linkedList();
-        vectorList();
+//        vectorList();
     }
 
     public static void arrayList() {
@@ -17,21 +17,23 @@ public class List {
         list.add("s2");
         list.add("s1");//list允许元素重复
         list.add(3, "s3");
-        //遍历第一种方法
-        for(int i=0;i < list.size();i++){
-            System.out.println(list.get(i));
-        }
-//        遍历第二种方法
-        Iterator it = list.iterator();
-        while(it.hasNext()){
-            Object obj = it.next();
-            System.out.println(obj);
-        }
 
-        //遍历第三种方法  jdk5以后
-        for (Object obj : list) {
-            System.out.println(obj);
-        }
+        System.out.println(list.set(0,"s0"));
+        //遍历第一种方法
+//        for(int i=0;i < list.size();i++){
+//            System.out.println(list.get(i));
+//        }
+////        遍历第二种方法
+//        Iterator it = list.iterator();
+//        while(it.hasNext()){
+//            Object obj = it.next();
+//            System.out.println(obj);
+//        }
+//
+//        //遍历第三种方法  jdk5以后
+//        for (Object obj : list) {
+//            System.out.println(obj);
+//        }
 //        System.out.println("list长度: "+list.size());
 //        System.out.println("list第二个位置的元素： "+list.get(2));
 
