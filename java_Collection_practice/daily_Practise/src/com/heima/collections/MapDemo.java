@@ -6,8 +6,8 @@ import java.util.Set;
 
 public class MapDemo {
     public static void main(String[] args) {
-//       hashMap();
-        propertites();
+       hashMap();
+//        propertites();
     }
     public static void hashMap(){
         Map mp = new HashMap();
