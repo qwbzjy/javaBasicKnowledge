@@ -15,10 +15,11 @@ public class enumDemo {
 //        }
         System.out.println(dir.getDirectionCode());
         for (Direction dr: Direction.values()) {
-            System.out.println(dr);
+//            System.out.println(dr);
             System.out.println(dr.getDirectionCode());
+//            System.out.println(dr.getDirectionCode());
         }
-        System.out.println(Direction.EASTDirections.valueOf("EAST_SOUTH"));
+//        System.out.println(Direction.EASTDirections.valueOf("EAST_SOUTH"));
     }
 }
 
