@@ -12,7 +12,7 @@ public class ThreadLocal1 {
     public static void main(String[] args) {
         new Thread(()->{
             try {
-                TimeUnit.SECONDS.sleep(2);
+                TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
