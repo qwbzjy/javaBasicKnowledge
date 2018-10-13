@@ -9,13 +9,13 @@ public class demo_007 {
      * */
 
     public synchronized void m1(){
-        System.out.println(Thread.currentThread().getName()+ "m1 start....");
+        System.out.println(Thread.currentThread().getName()+ "  m1 start....");
         try{
             Thread.sleep(10000);
         }catch (InterruptedException e){
             e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName()+ "m1 end...");
+        System.out.println(Thread.currentThread().getName()+ "  m1 end...");
     }
 
     public void m2(){
@@ -24,7 +24,7 @@ public class demo_007 {
         }catch (InterruptedException e){
             e.printStackTrace();
         }
-        System.out.println(Thread.currentThread().getName()+"m2 start....");
+        System.out.println(Thread.currentThread().getName()+"  m2 start....");
     }
 
     public static void main(String[] args) {

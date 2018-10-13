@@ -5,9 +5,9 @@ package com.Multithread.msb;
  */
 public class demo_005 implements Runnable {
     private  int count = 10;
-    public /*synchronized*/ void run(){//synchronized的代码块是原子性的，不可分。
+    public synchronized void run(){//synchronized的代码块是原子性的，不可分。
         count--;
-        System.out.println(Thread.currentThread().getName()+"count = "+count);
+        System.out.println(Thread.currentThread().getName()+"  count = "+count);
     }
 
     public static void main(String[] args) {

@@ -22,7 +22,7 @@ class Thread1 extends Thread{
 
     public void run(){
         for (int i=0;i<5;i++){
-            System.out.println(name+"运行:"+i);
+            System.out.println(name+"????:"+i);
         }
         try {
             sleep((int)Math.random()*10);
@@ -39,7 +39,7 @@ class Thread2 implements Runnable{
     }
     public void run(){
         for(int i=0; i<5; i++){
-            System.out.println(name+"运行: "+i);
+            System.out.println(name+"????: "+i);
         }
             try{
                 Thread.sleep((int)Math.random()*10);
